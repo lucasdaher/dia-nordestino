@@ -8,6 +8,8 @@ import chegadaPort from "../../assets/chegadaPort.png";
 import capitanias from "../../assets/capitanias.png";
 import invasao from "../../assets/invasao.png";
 import quilombos from "../../assets/quilombos.png";
+import baiana from "../../assets/baiana.png";
+import canudos from "../../assets/canudos.png";
 
 export default function Historia() {
   return (
@@ -59,12 +61,12 @@ export default function Historia() {
           </div>
         </section>
 
-        <section className="mt-44">
+        <section className="mt-24">
           <div>
             <div className="flex flex-row justify-between items-center gap-16">
               <div className="flex flex-col justify-between items-center gap-8 w-full">
                 <h1 className="text-3xl text-center font-bold leading-[5.375rem] text-black-100 max-w-[42.125rem] h-auto w-full">
-                  Alguns Acontecimentos Importantes
+                  Linha do Tempo Histórica do Nordeste
                 </h1>
               </div>
             </div>
@@ -242,6 +244,98 @@ export default function Historia() {
               fim de uma das mais significativas resistências à escravidão no
               Brasil, mas o legado de luta e resistência de Palmares continua a
               inspirar movimentos sociais até hoje.
+            </p>
+          </div>
+        </section>
+
+        <section className="flex flex-col justify-between items-center gap-9 mt-32 w-full">
+          <div>
+            <div className="flex flex-row justify-between items-center gap-16 w-full">
+              <div className="flex flex-col justify-between items-start gap-8 w-full">
+                <div className="flex flex-col justify-center items-start gap-2 w-full">
+                  <h1 className="text-8xl font-bold leading-[5.375rem] text-black-100 max-w-[42.125rem] h-auto w-full">
+                    Conjuração Baiana
+                  </h1>
+                  <h2 className="text-xl font-bold leading-[5.375rem] text-black-100 max-w-[42.125rem] h-auto w-full">
+                    1798
+                  </h2>
+                </div>
+                <p className="text-lg font-medium text-black-100 leading-[2.1875rem] max-w-[42.125rem] h-auto w-full text-justify">
+                  A Conjuração Baiana, também conhecida como Revolta dos
+                  Alfaiates ou Revolta dos Búzios, foi um movimento
+                  revolucionário ocorrido em Salvador, Bahia, em 1798. Este
+                  movimento teve como principais objetivos a independência do
+                  Brasil e a abolição da escravatura, além de lutar por melhores
+                  condições de vida para as camadas mais pobres da população.
+                </p>
+              </div>
+              <Image
+                className="max-w-[29.375rem] w-full h-auto"
+                src={baiana}
+                alt="Imagem ilustrativa sobre o Dia do Nordestino"
+              />
+            </div>
+          </div>
+
+          <div>
+            <p className="text-lg font-medium text-black-100 leading-[2.1875rem] h-auto w-full text-justify">
+              Influenciada pelos ideais iluministas da Revolução Francesa e pela
+              Revolução Haitiana, a Conjuração Baiana foi liderada por
+              alfaiates, soldados, negros livres e mestiços, destacando-se
+              figuras como João de Deus, Manuel Faustino dos Santos Lira, Luís
+              Gonzaga das Virgens e Lucas Dantas. A maçonaria também teve um
+              papel importante, com intelectuais locais como Cipriano Barata e
+              José da Silva Lisboa participando ativamente do movimento. O
+              movimento ganhou força com a distribuição de panfletos que
+              incitavam a população a lutar por liberdade, igualdade e
+              fraternidade. No entanto, as autoridades coloniais reagiram
+              rapidamente, prendendo e condenando à morte os principais líderes
+              em 1799. Apesar da repressão, a Conjuração Baiana é lembrada como
+              um marco na luta pela independência e pelos direitos dos oprimidos
+              no Brasil colonial.
+            </p>
+          </div>
+        </section>
+
+        <section className="flex flex-col justify-between items-center gap-9 mt-32 w-full">
+          <div>
+            <div className="flex flex-row justify-between items-center gap-16 w-full">
+              <Image
+                className="max-w-[29.375rem] w-full h-auto"
+                src={canudos}
+                alt="Imagem ilustrativa sobre o Dia do Nordestino"
+              />
+              <div className="flex flex-col justify-between items-start gap-8 w-full">
+                <div className="flex flex-col justify-center items-start gap-2 w-full">
+                  <h1 className="text-8xl font-bold leading-[5.375rem] text-black-100 max-w-[42.125rem] h-auto w-full">
+                    Guerra dos Canudos
+                  </h1>
+                  <h2 className="text-xl font-bold leading-[5.375rem] text-black-100 max-w-[42.125rem] h-auto w-full">
+                    1896 - 1897
+                  </h2>
+                </div>
+                <p className="text-lg font-medium text-black-100 leading-[2.1875rem] max-w-[42.125rem] h-auto w-full text-justify">
+                  A Guerra de Canudos foi um conflito armado entre o Exército
+                  Brasileiro e os seguidores de Antônio Conselheiro, um líder
+                  religioso que fundou a comunidade de Canudos, no sertão da
+                  Bahia. Conselheiro pregava contra a fome, a miséria e a seca,
+                  atraindo milhares de seguidores. A comunidade de Canudos
+                  cresceu rapidamente, o que preocupou as autoridades locais e
+                  nacionais, que viam o movimento como uma ameaça à
+                  recém-proclamada República.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p className="text-lg font-medium text-black-100 leading-[2.1875rem] h-auto w-full text-justify">
+              O conflito começou em novembro de 1896 e se intensificou ao longo
+              de 1897, com o governo enviando várias expedições militares para
+              destruir a comunidade. Após várias tentativas fracassadas, o
+              Exército finalmente conseguiu derrotar os Conselheiristas em
+              outubro de 1897, resultando na destruição completa de Canudos e na
+              morte de quase todos os seus habitantes.
             </p>
           </div>
         </section>
