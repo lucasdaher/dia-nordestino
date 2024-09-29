@@ -6,8 +6,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-full px-32 mt-32 bg-orange-500 py-16 flex flex-row justify-between items-center">
-      <div className="flex flex-col justify-center item-start gap-4">
+    <footer className="w-full px-32 mt-32 bg-orange-500 py-16 flex flex-col justify-center items-center gap-8">
+      <div className="flex flex-col justify-center items-center gap-4">
         <Image src={logo} alt="Logo do nosso site sobre o Nordeste" />
         <p className="text-black-100 font-medium text-sm">
           Feito por <strong>Lucas Daher</strong>,{" "}
