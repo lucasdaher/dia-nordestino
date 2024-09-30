@@ -8,7 +8,13 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 w-full py-4 px-9 flex justify-start items-center gap-20 bg-orange-100/40 backdrop-blur-[20px]">
       <div className="logo">
-        <Image src={logo} alt="Logo do nosso site Nordeste" />
+        <Link href="/">
+          <Image
+            src={logo}
+            alt="Logo do nosso site Nordeste"
+            className="hover:scale-105 transition-all duration-200"
+          />
+        </Link>
       </div>
 
       <nav>
