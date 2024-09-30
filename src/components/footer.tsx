@@ -27,11 +27,6 @@ export default function Footer() {
               História
             </li>
           </Link>
-          <Link href="/turismo">
-            <li className="text-base font-medium text-black/80 hover:text-orange-100 hover:transform hover:-translate-y-1 transition-all duration-200">
-              Turismo
-            </li>
-          </Link>
           <Link href="/cultura">
             <li className="text-base font-medium text-black/80 hover:text-orange-100 hover:transform hover:-translate-y-1 transition-all duration-200">
               Cultura
