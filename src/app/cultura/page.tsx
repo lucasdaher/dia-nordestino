@@ -7,6 +7,8 @@ import Image from "next/image";
 import cultural from "../../assets/cultural.png";
 import junina from "../../assets/junina.png";
 import danca from "../../assets/danca.png";
+import cordel from "../../assets/cordel.jpg";
+import artesanato from "../../assets/artesanato.jpg";
 
 export default function Cultura() {
   return (
@@ -136,7 +138,7 @@ export default function Cultura() {
               </div>
               <Image
                 className="max-w-[29.375rem] w-full h-auto"
-                src={danca}
+                src={artesanato}
                 alt="Imagem ilustrativa sobre o Dia do Nordestino"
               />
             </div>
@@ -148,7 +150,7 @@ export default function Cultura() {
             <div className="flex flex-row justify-between items-center gap-16 w-full">
               <Image
                 className="max-w-[29.375rem] w-full h-auto"
-                src={danca}
+                src={cordel}
                 alt="Imagem ilustrativa sobre o Dia do Nordestino"
               />
               <div className="flex flex-col justify-between items-start gap-8 w-full">
